@@ -1,0 +1,13 @@
+inicio
+    leer peso            70   
+    leer pesoIdeal       60
+    leer cambioDePeso    1
+    semanas = 0
+        Mientras (peso > pesoIdeal)
+            leer cambioDePeso
+            peso = peso - cambioDePeso 
+            semanas = semanas + 1
+        Fin mientras
+    Escribir semanas    
+Fin        
+

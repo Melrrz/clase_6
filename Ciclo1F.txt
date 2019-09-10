@@ -1,0 +1,9 @@
+inicio
+    leer num1    
+    leer num2    
+    escribir num1
+        Para (var contador = 0, contador < num2, contador = contador + 1)
+            escribir (num1 + 1)    
+        Fin Para
+Fin        
+

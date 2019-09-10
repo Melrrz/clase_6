@@ -1,0 +1,11 @@
+inicio
+    leer peso               
+    leer pesoIdeal       
+    leer cambioDePeso    
+        Para (var semanas = 0, peso > pesoIdeal, semanas = semanas + 1)
+            leer cambioDePeso
+            Peso = peso - cambioDePeso 
+            semanas + 1
+        Fin para    
+    Escribir semanas    
+Fin        

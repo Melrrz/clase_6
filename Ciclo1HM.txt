@@ -1,0 +1,12 @@
+inicio
+    leer num1    
+    leer num2
+    contador = 1   
+        escribir num1
+            Hacer
+                Leer contador
+                escribir (num1 + 1)
+                contador = contador +1    
+            Mientras (contador < num2) 
+Fin        
+
